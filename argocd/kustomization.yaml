@@ -5,7 +5,8 @@ namespace: argocd
 resources:
   - github.com/argoproj/argo-cd//manifests/cluster-install?ref=stable
   - namespace.yaml
-  - application.yaml
+  - application.yaml # for managing argocd itself
+  - app-of-apps.yaml # for managing all other applications
   - ingress.yaml
 
 patches:

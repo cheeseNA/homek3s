@@ -3,5 +3,4 @@ kind: Kustomization
 namespace: sample-app
 
 resources:
-  - application.yaml
   - nginx.yaml
