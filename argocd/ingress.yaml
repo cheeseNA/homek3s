@@ -4,7 +4,8 @@ metadata:
   name: argocd-server-http
 spec:
   rules:
-    - http:
+    - host: argocd.cheesena.dev
+      http:
         paths:
           - path: /
             pathType: Prefix
