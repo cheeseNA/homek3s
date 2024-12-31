@@ -8,6 +8,16 @@ alertmanager: https://alertmanager.cheesena.dev
 
 grafana: https://grafana.cheesena.dev
 
+<details>
+
+<summary>Images</summary>
+
+![argocd](./images/argocd.png)
+
+![grafana](./images/grafana.png)
+
+</details>
+
 ### How to deploy
 
 1. Set up kubernetes cluster
